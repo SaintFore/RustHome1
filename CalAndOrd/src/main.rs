@@ -1,4 +1,4 @@
-use eframe::egui::{Button, CentralPanel, Context,TextStyle,Layout};
+use eframe::egui::{Button, CentralPanel, Context,TextStyle};
 use eframe::CreationContext;
 use eframe::App;
 use egui::{Color32, RichText};
