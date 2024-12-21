@@ -53,7 +53,7 @@ impl App for MyApp {
                         ui.add_space(20.0);
                         if ui.add(Button::new(RichText::new("计算器")
                                 .size(30.0)
-                                .color(Color32::from_rgb(82, 91, 68))
+                                .color(Color32::from_rgb(141, 11, 65))
                                 )
                                     .min_size(egui::vec2(200.0, 25.0)))
                                         .clicked() {
@@ -62,7 +62,7 @@ impl App for MyApp {
                         ui.add_space(10.0);
                         if ui.add(Button::new(RichText::new("排序器")
                                 .size(30.0)
-                                .color(Color32::from_rgb(82, 91, 68))
+                                .color(Color32::from_rgb(141, 11, 65))
                                 )
                                     .min_size(egui::vec2(200.0, 25.0)))
                                         .clicked() {
